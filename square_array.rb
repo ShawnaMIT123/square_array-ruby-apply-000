@@ -1,3 +1,7 @@
 def square_array(array)
-  # your code here
+  counter = 0
+  array.each |position| do
+    array[counter] = position*position
+    counter += 1
+  end  
 end
